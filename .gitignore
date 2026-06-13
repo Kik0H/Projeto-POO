@@ -1,0 +1,14 @@
+# macOS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+
+# Compilados
+bin/
+*.class
+
+
+# Dependências de terceiros (JUnit, etc.) - descarregáveis publicamente
+lib/
