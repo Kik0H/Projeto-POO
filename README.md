@@ -1,6 +1,6 @@
 # DomusControl - Sistema de Gestão de Casa Inteligente
 
-Projeto de **Programação Orientada a Objetos (POO)**, em Java: uma aplicação de linha de comandos que simula o controlo de uma casa inteligente (smart home), com dispositivos, divisões, cenários e utilizadores.
+Projeto de **Programação Orientada a Objetos (POO)**, em Java: uma aplicação que simula o controlo de uma casa inteligente (smart home), com dispositivos, divisões, cenários e utilizadores.
 
 ## Conceitos do domínio
 
@@ -25,7 +25,7 @@ Projeto de **Programação Orientada a Objetos (POO)**, em Java: uma aplicação
 | Ficheiro | Responsabilidade |
 |---|---|
 | `Main.java` | Ponto de entrada da aplicação |
-| `DomusControl.java` | Controlador principal (lógica de negócio) |
+| `DomusControl.java` | Controlador principal |
 | `TextUI.java` | Interface de texto / menus interativos |
 | `Menu.java` | Construção e validação de menus |
 | `Casa.java`, `Divisao.java` | Estrutura da casa e divisões |
@@ -35,9 +35,6 @@ Projeto de **Programação Orientada a Objetos (POO)**, em Java: uma aplicação
 | `Comando.java` | Padrão de comandos para ações sobre dispositivos |
 | `GuardarEstado.java` | Persistência do estado da aplicação |
 
-## Diagrama UML
-
-`DIAGRAMA.uml` / `DIAGRAMA PNG.png` - diagrama de classes do sistema.
 
 ## Como executar
 
@@ -47,6 +44,3 @@ javac *.java
 java Main
 ```
 
-## Relatório
-
-`relatorio POO.pdf` - relatório com a descrição do projeto, decisões de design e diagrama de classes.
